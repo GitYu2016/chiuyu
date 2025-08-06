@@ -18,7 +18,7 @@ const Grid = styled('div', {
   gridAutoRows: '1fr',
   '@sm': {
     gridTemplateColumns: 'repeat(3, 1fr)',
-    gridTemplateRows: 'repeat(4, 1fr)',
+    gridTemplateRows: 'repeat(3, 1fr)',
   },
 })
 
@@ -26,7 +26,6 @@ const Top = styled('div', {
   display: 'flex',
   flexDirection: 'column',
   alignItems: 'center',
-  marginBottom: '$3',
   textAlign: 'center',
 })
 
@@ -92,7 +91,6 @@ const Greeting = styled('h2', {
   fontSize: '$4',
   fontWeight: '$4',
   color: '$title',
-  marginBottom: '$3',
   textAlign: 'center',
 })
 
@@ -100,14 +98,14 @@ export default function GridList() {
   const { t } = useLanguage()
 
   return (
-    <Grid>
-      <Item type="me">
-        <Top>
+    <Grid className="home-grid">
+      <Item type="me" className="profile-card">
+        <Top className="profile-avatar">
           <div className={util.roundIcon()}>
             <Logo />
           </div>
         </Top>
-        <Bio>
+        <Bio className="profile-bio">
           <Greeting>Hi, I'm yinchiuyu</Greeting>
           <p>
             {t('home-bio')}
@@ -115,12 +113,12 @@ export default function GridList() {
         </Bio>
       </Item>
       
-      <Item type="twitter">
+      <Item type="twitter" className="twitter-card">
         <CellGrid />
-        <Top>
+        <Top className="twitter-icon">
           <Twitter />
         </Top>
-        <div>
+        <div className="twitter-link">
           <GridLink
             href="https://twitter.com/yinchiuyu"
             label={t('buttons-follow')}
@@ -129,12 +127,12 @@ export default function GridList() {
         </div>
       </Item>
       
-      <Item type="github">
+      <Item type="github" className="github-card">
         <CellGrid />
-        <Top>
+        <Top className="github-icon">
           <Github />
         </Top>
-        <div>
+        <div className="github-link">
           <GridLink
             href="https://github.com/gityu2016"
             label={t('buttons-follow')}
@@ -143,10 +141,10 @@ export default function GridList() {
         </div>
       </Item>
       
-      <Item type="location">
+      <Item type="location" className="location-card">
         <Map />
         <CellGrid />
-        <Top>
+        <Top className="location-icon">
           <Location />
         </Top>
         <GridLink
@@ -156,9 +154,9 @@ export default function GridList() {
         />
       </Item>
       
-      <Item type="gmail">
+      <Item type="gmail" className="email-card">
         <CellGrid />
-        <Top>
+        <Top className="email-icon">
           <div className={util.roundIcon({
             css: {
               background: 'rgb(255 0 0 / 8%)',
@@ -168,7 +166,7 @@ export default function GridList() {
             <Mail />
           </div>
         </Top>
-        <div>
+        <div className="email-link">
           <GridLink
             href="mailto:yinchiuyu@gmail.com"
             label={t('buttons-mail')}

@@ -55,7 +55,7 @@ const Header = styled('div', {
   display: 'none',
   '@xs': {
     display: 'block',
-    padding: '1rem 0.75rem 1.5rem 0.75rem',
+    padding: '1rem 0.75rem 0',
     // 移除分割线
     // borderBottom: '1px solid $mint6',
     marginBottom: '$3',
@@ -101,6 +101,9 @@ export default function Menu() {
   const { setTheme } = useTheme()
   const { t } = useLanguage()
   const [open, setOpen] = React.useState(false)
+  
+  // 检查当前是否在Home页面
+  const isHomePage = router.pathname === "/"
 
   React.useEffect(() => {
     const handleRouteChange = () => {
@@ -114,35 +117,39 @@ export default function Menu() {
   }, [router.events])
 
   return (
-    <Container>
-      <Header>
+    <Container className="sidebar-left">
+      <Header className="sidebar-header">
         <SiteTitle />
       </Header>
-      <Main>
+      <Main className="sidebar-right">
         <Nav>
           <NavLink
             svg={<Home />}
             href="/"
             label={t('nav-home')}
             shortcut="0"
+            className={`nav-home ${isHomePage ? 'home-active' : ''}`}
           />
           <NavLink
             svg={<About />}
             href="/about"
             label={t('nav-about')}
             shortcut="1"
+            className={`nav-about ${isHomePage ? 'home-active' : ''}`}
           />
           <NavLink
             svg={<Projects />}
             href="/projects"
             label={t('nav-projects')}
             shortcut="2"
+            className={`nav-projects ${isHomePage ? 'home-active' : ''}`}
           />
           <NavLink
             svg={<Posts />}
             href="/posts"
             label={t('nav-posts')}
             shortcut="3"
+            className={`nav-posts ${isHomePage ? 'home-active' : ''}`}
           />
           <Divider>Resources</Divider>
           <NavLink
@@ -150,12 +157,14 @@ export default function Menu() {
             href="/stack"
             label={t('nav-stack')}
             shortcut="4"
+            className={`nav-stack ${isHomePage ? 'home-active' : ''}`}
           />
           <NavLink
             svg={<Gear />}
             href="/gear"
             label={t('nav-gear')}
             shortcut="5"
+            className={`nav-gear ${isHomePage ? 'home-active' : ''}`}
           />
 
           <Divider>Social</Divider>
@@ -164,24 +173,28 @@ export default function Menu() {
             href="https://twitter.com/yinchiuyu"
             label="Twitter"
             external
+            className={`nav-twitter ${isHomePage ? 'home-active' : ''}`}
           />
           <NavLink
             svg={<Instagram />}
             href="https://instagram.com/yinchiuyu"
             label="Instagram"
             external
+            className={`nav-instagram ${isHomePage ? 'home-active' : ''}`}
           />
           <NavLink
             svg={<Github />}
             href="https://github.com/gityu2016"
             label="Github"
             external
+            className={`nav-github ${isHomePage ? 'home-active' : ''}`}
           />
           <NavLink
             svg={<Figma />}
             href="https://figma.com/@yinchiuyu"
             label="Figma"
             external
+            className={`nav-figma ${isHomePage ? 'home-active' : ''}`}
           />
         </Nav>
       </Main>

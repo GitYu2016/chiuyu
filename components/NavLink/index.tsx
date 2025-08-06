@@ -82,9 +82,10 @@ interface NavLinkProps {
   href: string
   shortcut?: string
   external?: boolean
+  className?: string
 }
 
-export default function NavLink({ svg, label, href, shortcut, external }: NavLinkProps) {
+export default function NavLink({ svg, label, href, shortcut, external, className }: NavLinkProps) {
   const router = useRouter()
 
   const ariaCurrent = router.asPath.includes(href) && href !== "/"
@@ -118,6 +119,7 @@ export default function NavLink({ svg, label, href, shortcut, external }: NavLin
         rel="noopener noreferrer"
         aria-label={label}
         onClick={handleClick}
+        className={className}
       >
         <Left>
           <div className={util.icon()}>
@@ -146,7 +148,7 @@ export default function NavLink({ svg, label, href, shortcut, external }: NavLin
 
   return (
     <Link href={href} passHref legacyBehavior>
-      <Item aria-current={ariaCurrent} aria-label={label}>
+      <Item aria-current={ariaCurrent} aria-label={label} className={className}>
         <Left>
           <div className={util.icon()}>
             {svg}

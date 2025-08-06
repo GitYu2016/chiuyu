@@ -15,7 +15,7 @@ const Container = styled('div', {
     margin: '0 auto',
   },
   '@xs': {
-    margin: '0.5rem 0 1rem 0.5rem',
+    margin: '0.5rem 0 0 0.5rem',
     alignItems: 'flex-start',
     'svg': {
       margin: 0,

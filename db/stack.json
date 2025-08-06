@@ -21,7 +21,7 @@
     "id": "3",
     "name": "Manus",
     "description": "能够自主规划并执行复杂任务，且效果还可以的 AI Agent",
-    "url": "https://manus.app",
+    "url": "https://manus.im",
     "imageUrl": "/images/stack/manus.jpg",
     "category": "个人",
     "use": true
@@ -31,7 +31,7 @@
     "name": "Endel",
     "description": "基于人工智能技术的个性化音景生成应用，帮助用户 Focus、Relax、Sleep...",
     "url": "https://endel.io",
-    "imageUrl": "/images/stack/endel.jpg",
+    "imageUrl": "/images/stack/endel.svg",
     "category": "个人",
     "use": true
   },
@@ -130,7 +130,7 @@
     "name": "Next.js",
     "description": "React 全栈框架",
     "url": "https://nextjs.org",
-    "imageUrl": "/images/stack/nextjs.jpg",
+    "imageUrl": "/images/stack/next js.png",
     "category": "开发",
     "use": true
   },
@@ -148,7 +148,7 @@
     "name": "Notion API",
     "description": "Notion 数据库 API",
     "url": "https://developers.notion.com",
-    "imageUrl": "/images/stack/notion.jpg",
+    "imageUrl": "/images/stack/notion api.png",
     "category": "开发",
     "use": true
   },
@@ -166,7 +166,7 @@
     "name": "Radix UI",
     "description": "开源的、无样式的 React 组件库，提供高度可定制、可访问且灵活的 UI 基础组件",
     "url": "https://radix-ui.com",
-    "imageUrl": "/images/stack/radix-ui.jpg",
+    "imageUrl": "/images/stack/radix-ui.png",
     "category": "开发",
     "use": true
   },
@@ -184,7 +184,7 @@
     "name": "Sharp3D",
     "description": "3D 建模软件",
     "url": "#",
-    "imageUrl": "/images/stack/sharp3d.jpg",
+    "imageUrl": "/images/stack/sharp3d.png",
     "category": "建模",
     "use": true
   },
