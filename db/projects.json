@@ -1,0 +1,20 @@
+[
+  {
+    "id": "1",
+    "title": "XAG 农业无人机平台",
+    "description": "负责农业无人机操作场景的产品设计，包括自主/手动操作、运输作业、感知系统和作业报告等相关模块的工作流程。",
+    "url": "https://www.xa.com",
+    "imageUrl": "/images/projects/xag.jpg",
+    "tags": ["Product Design", "UX/UI", "Agriculture"],
+    "date": "2020 - 现在"
+  },
+  {
+    "id": "2",
+    "title": "iFLYOS 智能语音平台",
+    "description": "作为创始团队成员之一，从零开始负责AI语音平台生态系统内多个产品的交互和UI设计，涵盖小飞智能显示音箱系统、小飞语音助手App、智能车载App和iFLYOS官网后台等多终端产品。",
+    "url": "https://www.iflyos.cn",
+    "imageUrl": "/images/projects/iflyos.jpg",
+    "tags": ["UX Design", "AI", "Voice Interface"],
+    "date": "2016 - 2020"
+  }
+] 

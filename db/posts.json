@@ -1,0 +1,22 @@
+[
+  {
+    "id": "1",
+    "title": "产品设计中的用户体验思考",
+    "description": "分享在产品设计过程中对用户体验的一些思考和实践经验。",
+    "url": "#",
+    "imageUrl": "/images/posts/ux-thinking.jpg",
+    "tags": ["UX", "Design Thinking"],
+    "date": "2024-01-15",
+    "published": true
+  },
+  {
+    "id": "2",
+    "title": "硬件+软件产品设计的挑战",
+    "description": "探讨在硬件和软件结合的产品设计中遇到的挑战和解决方案。",
+    "url": "#",
+    "imageUrl": "/images/posts/hardware-software.jpg",
+    "tags": ["Product Design", "Hardware", "Software"],
+    "date": "2024-01-10",
+    "published": true
+  }
+] 

@@ -1,0 +1,200 @@
+[
+  {
+    "id": "1",
+    "name": "Craft",
+    "description": "好看且好用的知识管理工具",
+    "url": "https://craft.do",
+    "imageUrl": "/images/stack/craft.jpg",
+    "category": "个人",
+    "use": true
+  },
+  {
+    "id": "2",
+    "name": "备忘录",
+    "description": "Apple 系统自带的快速记录工具",
+    "url": "#",
+    "imageUrl": "/images/stack/notes.jpg",
+    "category": "个人",
+    "use": true
+  },
+  {
+    "id": "3",
+    "name": "Manus",
+    "description": "能够自主规划并执行复杂任务，且效果还可以的 AI Agent",
+    "url": "https://manus.app",
+    "imageUrl": "/images/stack/manus.jpg",
+    "category": "个人",
+    "use": true
+  },
+  {
+    "id": "4",
+    "name": "Endel",
+    "description": "基于人工智能技术的个性化音景生成应用，帮助用户 Focus、Relax、Sleep...",
+    "url": "https://endel.io",
+    "imageUrl": "/images/stack/endel.jpg",
+    "category": "个人",
+    "use": true
+  },
+  {
+    "id": "5",
+    "name": "Dia",
+    "description": "The Browser Company 推出的AI原生浏览器，已弃用 Chrome",
+    "url": "https://dia.com",
+    "imageUrl": "/images/stack/dia.jpg",
+    "category": "个人",
+    "use": true
+  },
+  {
+    "id": "6",
+    "name": "Arc",
+    "description": "The Browser Company开发的一款浏览器，支持 Space 数据分离、快速切换",
+    "url": "https://arc.net",
+    "imageUrl": "/images/stack/arc.jpg",
+    "category": "个人",
+    "use": true
+  },
+  {
+    "id": "7",
+    "name": "小宇宙",
+    "description": "中文播客应用",
+    "url": "https://xiaoyuzhoufm.com",
+    "imageUrl": "/images/stack/xiaoyuzhou.jpg",
+    "category": "个人",
+    "use": true
+  },
+  {
+    "id": "8",
+    "name": "Figma",
+    "description": "界面设计和原型制作工具",
+    "url": "https://figma.com",
+    "imageUrl": "/images/stack/figma.jpg",
+    "category": "设计",
+    "use": true
+  },
+  {
+    "id": "9",
+    "name": "MasterGo",
+    "description": "国产设计工具",
+    "url": "https://mastergo.com",
+    "imageUrl": "/images/stack/mastergo.jpg",
+    "category": "设计",
+    "use": true
+  },
+  {
+    "id": "10",
+    "name": "Illustrator",
+    "description": "矢量图形设计软件",
+    "url": "https://adobe.com/illustrator",
+    "imageUrl": "/images/stack/illustrator.jpg",
+    "category": "设计",
+    "use": true
+  },
+  {
+    "id": "11",
+    "name": "Photoshop",
+    "description": "图像编辑和处理软件",
+    "url": "https://adobe.com/photoshop",
+    "imageUrl": "/images/stack/photoshop.jpg",
+    "category": "设计",
+    "use": true
+  },
+  {
+    "id": "12",
+    "name": "Eagle",
+    "description": "设计素材管理工具",
+    "url": "https://eagle.cool",
+    "imageUrl": "/images/stack/eagle.jpg",
+    "category": "设计用",
+    "use": true
+  },
+  {
+    "id": "13",
+    "name": "Xmind",
+    "description": "思维导图软件",
+    "url": "https://xmind.cn",
+    "imageUrl": "/images/stack/xmind.jpg",
+    "category": "设计",
+    "use": true
+  },
+  {
+    "id": "14",
+    "name": "React",
+    "description": "用于构建高效、灵活的用户界面",
+    "url": "https://reactjs.org",
+    "imageUrl": "/images/stack/react.jpg",
+    "category": "开发",
+    "use": true
+  },
+  {
+    "id": "15",
+    "name": "Next.js",
+    "description": "React 全栈框架",
+    "url": "https://nextjs.org",
+    "imageUrl": "/images/stack/nextjs.jpg",
+    "category": "开发",
+    "use": true
+  },
+  {
+    "id": "16",
+    "name": "Supabase",
+    "description": "开源的后端即服务（BaaS）平台，基于 PostgreSQL 构建，提供数据库、身份验证、实时数据同步、文件存储等功能",
+    "url": "https://supabase.com",
+    "imageUrl": "/images/stack/supabase.jpg",
+    "category": "开发",
+    "use": true
+  },
+  {
+    "id": "17",
+    "name": "Notion API",
+    "description": "Notion 数据库 API",
+    "url": "https://developers.notion.com",
+    "imageUrl": "/images/stack/notion.jpg",
+    "category": "开发",
+    "use": true
+  },
+  {
+    "id": "18",
+    "name": "Xcode",
+    "description": "Apple 开发工具",
+    "url": "https://developer.apple.com/xcode",
+    "imageUrl": "/images/stack/xcode.jpg",
+    "category": "开发",
+    "use": true
+  },
+  {
+    "id": "19",
+    "name": "Radix UI",
+    "description": "开源的、无样式的 React 组件库，提供高度可定制、可访问且灵活的 UI 基础组件",
+    "url": "https://radix-ui.com",
+    "imageUrl": "/images/stack/radix-ui.jpg",
+    "category": "开发",
+    "use": true
+  },
+  {
+    "id": "20",
+    "name": "Unity",
+    "description": "游戏开发引擎",
+    "url": "https://unity.com",
+    "imageUrl": "/images/stack/unity.jpg",
+    "category": "开发",
+    "use": true
+  },
+  {
+    "id": "21",
+    "name": "Sharp3D",
+    "description": "3D 建模软件",
+    "url": "#",
+    "imageUrl": "/images/stack/sharp3d.jpg",
+    "category": "建模",
+    "use": true
+  },
+  {
+    "id": "22",
+    "name": "Rhino 8",
+    "description": "3D 建模软件",
+    "url": "https://rhino3d.com",
+    "imageUrl": "/images/stack/rhino.jpg",
+    "category": "建模",
+    "use": true
+  }
+] 

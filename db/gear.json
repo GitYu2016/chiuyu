@@ -1,0 +1,29 @@
+[
+  {
+    "id": "1",
+    "name": "MacBook Pro 16\"",
+    "description": "主要工作设备，M1 Pro 芯片",
+    "url": "https://apple.com/macbook-pro",
+    "imageUrl": "/images/gear/macbook.jpg",
+    "category": "Computer",
+    "use": true
+  },
+  {
+    "id": "2",
+    "name": "Nintendo Switch 1",
+    "description": "Switch 1",
+    "url": "https://nintendo.com/",
+    "imageUrl": "/images/gear/pencil.jpg",
+    "category": "Accessory",
+    "use": true
+  },
+  {
+    "id": "3",
+    "name": "Bose qc30",
+    "description": "降噪耳机，专注工作必备",
+    "url": "https://bose.com",
+    "imageUrl": "/images/gear/headphones.jpg",
+    "category": "Audio",
+    "use": true
+  }
+]
